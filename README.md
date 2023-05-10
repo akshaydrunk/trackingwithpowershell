@@ -4,7 +4,7 @@
  
 Get Process by Name, PId, ParentPId, Path, Commandline
  ```
- Get-CimInstance -Class Win32_Process | Select-Object -Property Name, ProcessId, ParentProcessId, Path, CommandLine
+  Get-CimInstance -Class Win32_Process | Select-Object -Property Name, ProcessId, ParentProcessId, Path, CommandLine
  ```
 
 Get information for a specific process
